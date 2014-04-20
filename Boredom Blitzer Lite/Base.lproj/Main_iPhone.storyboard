@@ -16,47 +16,66 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="Boredom Blitzer!" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zhg-ve-WU7">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Boredom Blitzer!" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zhg-ve-WU7">
                                 <rect key="frame" x="20" y="67" width="280" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="JVG-yo-Cwe"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="34"/>
                                 <color key="textColor" red="0.2274509804" green="0.53725490200000003" blue="0.61960784310000006" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="shadowOffset" width="1" height="2"/>
                             </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Blow Away That Boredom!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tZ3-Hv-Q7E">
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Blow Away That Boredom!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tZ3-Hv-Q7E">
                                 <rect key="frame" x="20" y="334" width="280" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="rDj-Sg-2Zj"/>
+                                    <constraint firstAttribute="height" constant="35" id="aIX-pC-p7i"/>
                                 </constraints>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bb_logo3a" translatesAutoresizingMaskIntoConstraints="NO" id="Z6x-9j-QbB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bb_logo3a" translatesAutoresizingMaskIntoConstraints="NO" id="Z6x-9j-QbB">
                                 <rect key="frame" x="40" y="104" width="240" height="241"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shake or Tap to Blitz your Boredom and get suggestions of fun things to do!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="294" translatesAutoresizingMaskIntoConstraints="NO" id="vdP-co-EDA">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake or Tap to Blitz your Boredom and get suggestions of fun things to do!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="294" translatesAutoresizingMaskIntoConstraints="NO" id="vdP-co-EDA">
                                 <rect key="frame" x="13" y="357" width="294" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="VNd-Yw-CNE"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mLK-aX-S9l">
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" translatesAutoresizingMaskIntoConstraints="NO" id="mLK-aX-S9l">
                                 <rect key="frame" x="0.0" y="20" width="320" height="42"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="DSs-g3-sNE"/>
+                                </constraints>
                             </adBannerView>
                         </subviews>
                         <color key="backgroundColor" red="0.76994729982668875" green="0.93836706254660063" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="tZ3-Hv-Q7E" secondAttribute="trailing" constant="20" symbolic="YES" id="94m-GQ-azi"/>
-                            <constraint firstItem="tZ3-Hv-Q7E" firstAttribute="top" secondItem="Zhg-ve-WU7" secondAttribute="bottom" constant="40" id="G3o-MK-III"/>
-                            <constraint firstItem="Zhg-ve-WU7" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" constant="20" symbolic="YES" id="JQj-gp-vk2"/>
-                            <constraint firstAttribute="trailing" secondItem="Zhg-ve-WU7" secondAttribute="trailing" constant="20" symbolic="YES" id="eHs-J5-0HT"/>
-                            <constraint firstItem="tZ3-Hv-Q7E" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" constant="20" symbolic="YES" id="lKy-m9-LcB"/>
-                            <constraint firstAttribute="centerY" secondItem="tZ3-Hv-Q7E" secondAttribute="centerY" id="xLM-BA-nZb"/>
+                            <constraint firstItem="Zhg-ve-WU7" firstAttribute="trailing" secondItem="tZ3-Hv-Q7E" secondAttribute="trailing" id="4Kz-WF-qCW"/>
+                            <constraint firstItem="mLK-aX-S9l" firstAttribute="top" secondItem="2VE-Yg-loa" secondAttribute="top" constant="20" symbolic="YES" id="AlR-FV-np6"/>
+                            <constraint firstItem="Zhg-ve-WU7" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" constant="20" symbolic="YES" id="Bnu-UM-5Q0"/>
+                            <constraint firstItem="vdP-co-EDA" firstAttribute="top" secondItem="Z6x-9j-QbB" secondAttribute="bottom" constant="12" id="MYt-r2-jE0"/>
+                            <constraint firstItem="Z6x-9j-QbB" firstAttribute="centerX" secondItem="tZ3-Hv-Q7E" secondAttribute="centerX" id="PAR-vA-o1S"/>
+                            <constraint firstItem="vdP-co-EDA" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" constant="13" id="W3r-2F-dTD"/>
+                            <constraint firstItem="mLK-aX-S9l" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" id="aB0-JN-6pT"/>
+                            <constraint firstItem="Zhg-ve-WU7" firstAttribute="centerX" secondItem="mLK-aX-S9l" secondAttribute="centerX" id="ena-ob-bQc"/>
+                            <constraint firstAttribute="trailing" secondItem="Zhg-ve-WU7" secondAttribute="trailing" constant="20" symbolic="YES" id="g8Z-Vo-tZy"/>
+                            <constraint firstAttribute="bottom" secondItem="vdP-co-EDA" secondAttribute="bottom" constant="43" id="icm-7p-pxd"/>
+                            <constraint firstItem="vdP-co-EDA" firstAttribute="centerX" secondItem="tZ3-Hv-Q7E" secondAttribute="centerX" id="iia-Ec-dUh"/>
+                            <constraint firstItem="Z6x-9j-QbB" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" constant="40" id="lF1-sb-YOc"/>
+                            <constraint firstItem="dtj-EO-iXF" firstAttribute="top" secondItem="tZ3-Hv-Q7E" secondAttribute="bottom" constant="62" id="mpe-5B-f2t"/>
+                            <constraint firstItem="Z6x-9j-QbB" firstAttribute="top" secondItem="mLK-aX-S9l" secondAttribute="bottom" constant="34" id="nkS-eC-vGs"/>
+                            <constraint firstItem="Zhg-ve-WU7" firstAttribute="top" secondItem="s9W-kb-ARv" secondAttribute="bottom" constant="47" id="rQi-MM-TY2"/>
+                            <constraint firstItem="Zhg-ve-WU7" firstAttribute="leading" secondItem="tZ3-Hv-Q7E" secondAttribute="leading" id="zRz-2P-l5g"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="u1e-5L-l1D"/>
