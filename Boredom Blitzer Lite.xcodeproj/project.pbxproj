@@ -23,6 +23,7 @@
 		EC56B93719037A43006D8E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC56B91319037A42006D8E8F /* UIKit.framework */; };
 		EC56B93F19037A43006D8E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC56B93D19037A43006D8E8F /* InfoPlist.strings */; };
 		EC56B94119037A43006D8E8F /* Boredom_Blitzer_LiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56B94019037A43006D8E8F /* Boredom_Blitzer_LiteTests.m */; };
+		EC56B94B190382B8006D8E8F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC56B94A190382B8006D8E8F /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		EC56B93C19037A43006D8E8F /* Boredom Blitzer LiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boredom Blitzer LiteTests-Info.plist"; sourceTree = "<group>"; };
 		EC56B93E19037A43006D8E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC56B94019037A43006D8E8F /* Boredom_Blitzer_LiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boredom_Blitzer_LiteTests.m; sourceTree = "<group>"; };
+		EC56B94A190382B8006D8E8F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC56B94B190382B8006D8E8F /* iAd.framework in Frameworks */,
 				EC56B91219037A42006D8E8F /* CoreGraphics.framework in Frameworks */,
 				EC56B91419037A42006D8E8F /* UIKit.framework in Frameworks */,
 				EC56B91019037A42006D8E8F /* Foundation.framework in Frameworks */,
@@ -106,6 +109,7 @@
 		EC56B90E19037A42006D8E8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC56B94A190382B8006D8E8F /* iAd.framework */,
 				EC56B90F19037A42006D8E8F /* Foundation.framework */,
 				EC56B91119037A42006D8E8F /* CoreGraphics.framework */,
 				EC56B91319037A42006D8E8F /* UIKit.framework */,
