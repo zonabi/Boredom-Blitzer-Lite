@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC56B91019037A42006D8E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC56B90F19037A42006D8E8F /* Foundation.framework */; };
+		EC56B91219037A42006D8E8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC56B91119037A42006D8E8F /* CoreGraphics.framework */; };
+		EC56B91419037A42006D8E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC56B91319037A42006D8E8F /* UIKit.framework */; };
+		EC56B91A19037A42006D8E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC56B91819037A42006D8E8F /* InfoPlist.strings */; };
+		EC56B91C19037A42006D8E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56B91B19037A42006D8E8F /* main.m */; };
+		EC56B92019037A42006D8E8F /* ZNBDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56B91F19037A42006D8E8F /* ZNBDAppDelegate.m */; };
+		EC56B92319037A43006D8E8F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC56B92119037A43006D8E8F /* Main_iPhone.storyboard */; };
+		EC56B92619037A43006D8E8F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC56B92419037A43006D8E8F /* Main_iPad.storyboard */; };
+		EC56B92919037A43006D8E8F /* ZNBDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56B92819037A43006D8E8F /* ZNBDFirstViewController.m */; };
+		EC56B92C19037A43006D8E8F /* ZNBDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56B92B19037A43006D8E8F /* ZNBDSecondViewController.m */; };
+		EC56B92E19037A43006D8E8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC56B92D19037A43006D8E8F /* Images.xcassets */; };
+		EC56B93519037A43006D8E8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC56B93419037A43006D8E8F /* XCTest.framework */; };
+		EC56B93619037A43006D8E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC56B90F19037A42006D8E8F /* Foundation.framework */; };
+		EC56B93719037A43006D8E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC56B91319037A42006D8E8F /* UIKit.framework */; };
+		EC56B93F19037A43006D8E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC56B93D19037A43006D8E8F /* InfoPlist.strings */; };
+		EC56B94119037A43006D8E8F /* Boredom_Blitzer_LiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56B94019037A43006D8E8F /* Boredom_Blitzer_LiteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC56B93819037A43006D8E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC56B90419037A42006D8E8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC56B90B19037A42006D8E8F;
+			remoteInfo = "Boredom Blitzer Lite";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC56B90C19037A42006D8E8F /* Boredom Blitzer Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boredom Blitzer Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC56B90F19037A42006D8E8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC56B91119037A42006D8E8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC56B91319037A42006D8E8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC56B91719037A42006D8E8F /* Boredom Blitzer Lite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boredom Blitzer Lite-Info.plist"; sourceTree = "<group>"; };
+		EC56B91919037A42006D8E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC56B91B19037A42006D8E8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC56B91D19037A42006D8E8F /* Boredom Blitzer Lite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boredom Blitzer Lite-Prefix.pch"; sourceTree = "<group>"; };
+		EC56B91E19037A42006D8E8F /* ZNBDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZNBDAppDelegate.h; sourceTree = "<group>"; };
+		EC56B91F19037A42006D8E8F /* ZNBDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNBDAppDelegate.m; sourceTree = "<group>"; };
+		EC56B92219037A43006D8E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EC56B92519037A43006D8E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EC56B92719037A43006D8E8F /* ZNBDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZNBDFirstViewController.h; sourceTree = "<group>"; };
+		EC56B92819037A43006D8E8F /* ZNBDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNBDFirstViewController.m; sourceTree = "<group>"; };
+		EC56B92A19037A43006D8E8F /* ZNBDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZNBDSecondViewController.h; sourceTree = "<group>"; };
+		EC56B92B19037A43006D8E8F /* ZNBDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNBDSecondViewController.m; sourceTree = "<group>"; };
+		EC56B92D19037A43006D8E8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC56B93319037A43006D8E8F /* Boredom Blitzer LiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boredom Blitzer LiteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC56B93419037A43006D8E8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC56B93C19037A43006D8E8F /* Boredom Blitzer LiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boredom Blitzer LiteTests-Info.plist"; sourceTree = "<group>"; };
+		EC56B93E19037A43006D8E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC56B94019037A43006D8E8F /* Boredom_Blitzer_LiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boredom_Blitzer_LiteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC56B90919037A42006D8E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56B91219037A42006D8E8F /* CoreGraphics.framework in Frameworks */,
+				EC56B91419037A42006D8E8F /* UIKit.framework in Frameworks */,
+				EC56B91019037A42006D8E8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56B93019037A43006D8E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56B93519037A43006D8E8F /* XCTest.framework in Frameworks */,
+				EC56B93719037A43006D8E8F /* UIKit.framework in Frameworks */,
+				EC56B93619037A43006D8E8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC56B90319037A42006D8E8F = {
+			isa = PBXGroup;
+			children = (
+				EC56B91519037A42006D8E8F /* Boredom Blitzer Lite */,
+				EC56B93A19037A43006D8E8F /* Boredom Blitzer LiteTests */,
+				EC56B90E19037A42006D8E8F /* Frameworks */,
+				EC56B90D19037A42006D8E8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC56B90D19037A42006D8E8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC56B90C19037A42006D8E8F /* Boredom Blitzer Lite.app */,
+				EC56B93319037A43006D8E8F /* Boredom Blitzer LiteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC56B90E19037A42006D8E8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC56B90F19037A42006D8E8F /* Foundation.framework */,
+				EC56B91119037A42006D8E8F /* CoreGraphics.framework */,
+				EC56B91319037A42006D8E8F /* UIKit.framework */,
+				EC56B93419037A43006D8E8F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC56B91519037A42006D8E8F /* Boredom Blitzer Lite */ = {
+			isa = PBXGroup;
+			children = (
+				EC56B91E19037A42006D8E8F /* ZNBDAppDelegate.h */,
+				EC56B91F19037A42006D8E8F /* ZNBDAppDelegate.m */,
+				EC56B92119037A43006D8E8F /* Main_iPhone.storyboard */,
+				EC56B92419037A43006D8E8F /* Main_iPad.storyboard */,
+				EC56B92719037A43006D8E8F /* ZNBDFirstViewController.h */,
+				EC56B92819037A43006D8E8F /* ZNBDFirstViewController.m */,
+				EC56B92A19037A43006D8E8F /* ZNBDSecondViewController.h */,
+				EC56B92B19037A43006D8E8F /* ZNBDSecondViewController.m */,
+				EC56B92D19037A43006D8E8F /* Images.xcassets */,
+				EC56B91619037A42006D8E8F /* Supporting Files */,
+			);
+			path = "Boredom Blitzer Lite";
+			sourceTree = "<group>";
+		};
+		EC56B91619037A42006D8E8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC56B91719037A42006D8E8F /* Boredom Blitzer Lite-Info.plist */,
+				EC56B91819037A42006D8E8F /* InfoPlist.strings */,
+				EC56B91B19037A42006D8E8F /* main.m */,
+				EC56B91D19037A42006D8E8F /* Boredom Blitzer Lite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC56B93A19037A43006D8E8F /* Boredom Blitzer LiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC56B94019037A43006D8E8F /* Boredom_Blitzer_LiteTests.m */,
+				EC56B93B19037A43006D8E8F /* Supporting Files */,
+			);
+			path = "Boredom Blitzer LiteTests";
+			sourceTree = "<group>";
+		};
+		EC56B93B19037A43006D8E8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC56B93C19037A43006D8E8F /* Boredom Blitzer LiteTests-Info.plist */,
+				EC56B93D19037A43006D8E8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC56B90B19037A42006D8E8F /* Boredom Blitzer Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC56B94419037A43006D8E8F /* Build configuration list for PBXNativeTarget "Boredom Blitzer Lite" */;
+			buildPhases = (
+				EC56B90819037A42006D8E8F /* Sources */,
+				EC56B90919037A42006D8E8F /* Frameworks */,
+				EC56B90A19037A42006D8E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boredom Blitzer Lite";
+			productName = "Boredom Blitzer Lite";
+			productReference = EC56B90C19037A42006D8E8F /* Boredom Blitzer Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC56B93219037A43006D8E8F /* Boredom Blitzer LiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC56B94719037A43006D8E8F /* Build configuration list for PBXNativeTarget "Boredom Blitzer LiteTests" */;
+			buildPhases = (
+				EC56B92F19037A43006D8E8F /* Sources */,
+				EC56B93019037A43006D8E8F /* Frameworks */,
+				EC56B93119037A43006D8E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC56B93919037A43006D8E8F /* PBXTargetDependency */,
+			);
+			name = "Boredom Blitzer LiteTests";
+			productName = "Boredom Blitzer LiteTests";
+			productReference = EC56B93319037A43006D8E8F /* Boredom Blitzer LiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC56B90419037A42006D8E8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZNBD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zonabidesign;
+				TargetAttributes = {
+					EC56B93219037A43006D8E8F = {
+						TestTargetID = EC56B90B19037A42006D8E8F;
+					};
+				};
+			};
+			buildConfigurationList = EC56B90719037A42006D8E8F /* Build configuration list for PBXProject "Boredom Blitzer Lite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC56B90319037A42006D8E8F;
+			productRefGroup = EC56B90D19037A42006D8E8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC56B90B19037A42006D8E8F /* Boredom Blitzer Lite */,
+				EC56B93219037A43006D8E8F /* Boredom Blitzer LiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC56B90A19037A42006D8E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56B92619037A43006D8E8F /* Main_iPad.storyboard in Resources */,
+				EC56B92E19037A43006D8E8F /* Images.xcassets in Resources */,
+				EC56B92319037A43006D8E8F /* Main_iPhone.storyboard in Resources */,
+				EC56B91A19037A42006D8E8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56B93119037A43006D8E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56B93F19037A43006D8E8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC56B90819037A42006D8E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56B92019037A42006D8E8F /* ZNBDAppDelegate.m in Sources */,
+				EC56B91C19037A42006D8E8F /* main.m in Sources */,
+				EC56B92C19037A43006D8E8F /* ZNBDSecondViewController.m in Sources */,
+				EC56B92919037A43006D8E8F /* ZNBDFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56B92F19037A43006D8E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56B94119037A43006D8E8F /* Boredom_Blitzer_LiteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC56B93919037A43006D8E8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC56B90B19037A42006D8E8F /* Boredom Blitzer Lite */;
+			targetProxy = EC56B93819037A43006D8E8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC56B91819037A42006D8E8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC56B91919037A42006D8E8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC56B92119037A43006D8E8F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC56B92219037A43006D8E8F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EC56B92419037A43006D8E8F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC56B92519037A43006D8E8F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EC56B93D19037A43006D8E8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC56B93E19037A43006D8E8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC56B94219037A43006D8E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC56B94319037A43006D8E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC56B94519037A43006D8E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boredom Blitzer Lite/Boredom Blitzer Lite-Prefix.pch";
+				INFOPLIST_FILE = "Boredom Blitzer Lite/Boredom Blitzer Lite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC56B94619037A43006D8E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boredom Blitzer Lite/Boredom Blitzer Lite-Prefix.pch";
+				INFOPLIST_FILE = "Boredom Blitzer Lite/Boredom Blitzer Lite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC56B94819037A43006D8E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Boredom Blitzer Lite.app/Boredom Blitzer Lite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boredom Blitzer Lite/Boredom Blitzer Lite-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Boredom Blitzer LiteTests/Boredom Blitzer LiteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC56B94919037A43006D8E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Boredom Blitzer Lite.app/Boredom Blitzer Lite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boredom Blitzer Lite/Boredom Blitzer Lite-Prefix.pch";
+				INFOPLIST_FILE = "Boredom Blitzer LiteTests/Boredom Blitzer LiteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC56B90719037A42006D8E8F /* Build configuration list for PBXProject "Boredom Blitzer Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC56B94219037A43006D8E8F /* Debug */,
+				EC56B94319037A43006D8E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC56B94419037A43006D8E8F /* Build configuration list for PBXNativeTarget "Boredom Blitzer Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC56B94519037A43006D8E8F /* Debug */,
+				EC56B94619037A43006D8E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC56B94719037A43006D8E8F /* Build configuration list for PBXNativeTarget "Boredom Blitzer LiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC56B94819037A43006D8E8F /* Debug */,
+				EC56B94919037A43006D8E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC56B90419037A42006D8E8F /* Project object */;
+}
